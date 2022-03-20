@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icon-header {
+    @apply h-5 w-5 cursor-pointer transition-all duration-75 hover:scale-110;
+  }
+  .icon-header-mobile {
+    @apply h-7 w-7 cursor-pointer transition-all duration-75 hover:scale-110;
+  }
+  .icon-feed {
+    @apply h-8 w-8 cursor-pointer transition-all duration-75 hover:scale-110;
+  }
+}
